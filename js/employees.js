@@ -75,9 +75,8 @@ var pawneeEmployees = [
         department: 'Council',
         phone: '555-2111',
         email: 'dexhart@pawnee.ia.gov',
-        picUrl: 'img/dexhart.jpg',
-        quote: 'Stop playing dumb. You know damn well what happened. I got the babysitter pregnant. And when she was in the delivery room I had sex with not one, but four nurses in a supply closet...as well as a woman whose husband was getting a liver transplant. Hmm...Now which one of them told you? Was it the liver lady?'
-    },
+        picUrl: 'img/dexhart.jpg'
+        },
     {
         firstName: 'Jeremy',
         lastName: 'Jamm',
@@ -86,7 +85,7 @@ var pawneeEmployees = [
         phone: '555-2112',
         email: 'jamm@pawnee.ia.gov',
         picUrl: 'img/jamm.jpg',
-        quote: 'I love Chinese crap. Lucy Liu, Nintendo, Gangnam Style, sushi, etcetera etcetera'
+        quote: 'I love Chinese crap. Lucy Liu, Nintendo, Gangnam Style, sushi, etcetera etcetera.'
     },
     {
         firstName: 'Knope',
