@@ -12,4 +12,8 @@ angular.module('AddressBook', [])
 	.controller('AddressController', function($scope) {
 		$scope.employees = pawneeEmployees;
 		$scope.order = 'lastName';
+
+		$scope.fullName = function(employee) {
+			return employee.firstName + ' ' + employee.lastName;
+		};
 	});

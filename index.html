@@ -39,9 +39,9 @@
                 <ul class="cards">
                     <li class="card" ng-repeat="employee in employees | filter : search | orderBy : order">
                         <!-- this img should show the employee picture --> 
-                        <img ng-src="{{employee.picUrl}}" alt="picture of {{employee.firstName}} {{employee.lastName}}">
+                        <img ng-src="{{employee.picUrl}}" alt="picture of {{fullName(employee)}}">
                         <div class="details">
-                            <h2 class="name">{{employee.firstName}} {{employee.lastName}}</h2>
+                            <h2 class="name">{{fullName(employee)}}</h2>
                             <p class="title">{{employee.title}}</p>
                             <p class="department">{{employee.department}}</p>
                             <p class="phone"><a ng-if="employee.phone" ng-href="tel:{{employee.phone}}">{{employee.phone}}</a></p>
